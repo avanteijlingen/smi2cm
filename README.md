@@ -31,12 +31,12 @@ Example (methanol):
 
 Usage:
 
-<code>
+~~~python
+```
 
 import smi2cm
 
 smi = "c1cccc1" # benzene
-
 
 
 #Get Coulomb matrix from 3D coordinates with hydrogens included
@@ -44,32 +44,27 @@ smi = "c1cccc1" # benzene
 cij = smi2cm.smi2cm(smi, 3, Hs = True)
 
 
-
 #Get Coulomb matrix from 2D coordinates with hydrogens excluded
 
 cij = smi2cm.smi2cm(smi, 2, Hs = False)
 
-</code>
+~~~
 
 
 
 Visualisation (depends: mayavi):
 
-<code>
-
+```python
 import smi2cm
 
 smi = "NC1=NCC(CCNC(=O)c2cc3c(cn2)[nH]c2ccccc23)N1" # tiruchanduramine
 
 smi2cm.visualise(smi)
-
-</code>
-
-tiruchanduramine molecule from: Ravinder, K.; Reddy, A. V.; Krishnaiah, P.; Ramesh, P.; Ramakrishna, S.; Laatsch, H.; Venkateswarlu, Y. Isolation and Synthesis of a Novel β-Carboline Guanidine Derivative Tiruchanduramine from the Indian Ascidian Synoicum Macroglossum. Tetrahedron Lett. 2005, 46 (33), 5475–5478. https://doi.org/https://doi.org/10.1016/j.tetlet.2005.06.060.
+```
 
 
 
-[![tiruchanduramine.png](https://i.postimg.cc/tTFdLj9m/tiruchanduramine.png)](https://postimg.cc/gXk6Z1Xv)
+[![tiruchanduramine.png](https://i.postimg.cc/tTFdLj9m/tiruchanduramine.png)](https://postimg.cc/gXk6Z1Xv)molecule from: Ravinder, K.; Reddy, A. V.; Krishnaiah, P.; Ramesh, P.; Ramakrishna, S.; Laatsch, H.; Venkateswarlu, Y. Isolation and Synthesis of a Novel β-Carboline Guanidine Derivative Tiruchanduramine from the Indian Ascidian Synoicum Macroglossum. Tetrahedron Lett. 2005, 46 (33), 5475–5478. https://doi.org/https://doi.org/10.1016/j.tetlet.2005.06.060.
 
 ## Dependencies
 
