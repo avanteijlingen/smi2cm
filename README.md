@@ -31,9 +31,7 @@ Example (methanol):
 
 Usage:
 
-~~~python
-```
-
+```python
 import smi2cm
 
 smi = "c1cccc1" # benzene
@@ -48,7 +46,7 @@ cij = smi2cm.smi2cm(smi, 3, Hs = True)
 
 cij = smi2cm.smi2cm(smi, 2, Hs = False)
 
-~~~
+```
 
 
 
@@ -64,7 +62,7 @@ smi2cm.visualise(smi)
 
 
 
-[![tiruchanduramine.png](https://i.postimg.cc/tTFdLj9m/tiruchanduramine.png)](https://postimg.cc/gXk6Z1Xv)molecule from: Ravinder, K.; Reddy, A. V.; Krishnaiah, P.; Ramesh, P.; Ramakrishna, S.; Laatsch, H.; Venkateswarlu, Y. Isolation and Synthesis of a Novel β-Carboline Guanidine Derivative Tiruchanduramine from the Indian Ascidian Synoicum Macroglossum. Tetrahedron Lett. 2005, 46 (33), 5475–5478. https://doi.org/https://doi.org/10.1016/j.tetlet.2005.06.060.
+[![tiruchanduramine.png](https://i.postimg.cc/tTFdLj9m/tiruchanduramine.png)](https://postimg.cc/gXk6Z1Xv) molecule from: Ravinder, K.; Reddy, A. V.; Krishnaiah, P.; Ramesh, P.; Ramakrishna, S.; Laatsch, H.; Venkateswarlu, Y. Isolation and Synthesis of a Novel β-Carboline Guanidine Derivative Tiruchanduramine from the Indian Ascidian Synoicum Macroglossum. Tetrahedron Lett. 2005, 46 (33), 5475–5478. https://doi.org/https://doi.org/10.1016/j.tetlet.2005.06.060.
 
 ## Dependencies
 
